@@ -1,0 +1,315 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L keebio:Elite-C U?
+U 1 1 604118D8
+P 3000 5400
+F 0 "U?" H 3000 6237 60  0000 C CNN
+F 1 "Elite-C" H 3000 6131 60  0000 C CNN
+F 2 "" V 4050 2900 60  0001 C CNN
+F 3 "" V 4050 2900 60  0001 C CNN
+	1    3000 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 5700 5250 5700
+$Comp
+L power:GND #PWR?
+U 1 1 60412A8D
+P 4950 5700
+F 0 "#PWR?" H 4950 5450 50  0001 C CNN
+F 1 "GND" H 4955 5527 50  0000 C CNN
+F 2 "" H 4950 5700 50  0001 C CNN
+F 3 "" H 4950 5700 50  0001 C CNN
+	1    4950 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 6041315A
+P 5250 5700
+F 0 "#FLG?" H 5250 5775 50  0001 C CNN
+F 1 "PWR_FLAG" H 5250 5873 50  0000 C CNN
+F 2 "" H 5250 5700 50  0001 C CNN
+F 3 "~" H 5250 5700 50  0001 C CNN
+	1    5250 5700
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 6200 0    50   Input ~ 0
+LED1
+Text GLabel 4800 6550 0    50   Input ~ 0
+LED2
+Text GLabel 4800 6900 0    50   Input ~ 0
+LED3
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 60413684
+P 5250 6200
+F 0 "#FLG?" H 5250 6275 50  0001 C CNN
+F 1 "PWR_FLAG" H 5250 6373 50  0000 C CNN
+F 2 "" H 5250 6200 50  0001 C CNN
+F 3 "~" H 5250 6200 50  0001 C CNN
+	1    5250 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 6200 4800 6200
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 6041386D
+P 5250 6550
+F 0 "#FLG?" H 5250 6625 50  0001 C CNN
+F 1 "PWR_FLAG" H 5250 6723 50  0000 C CNN
+F 2 "" H 5250 6550 50  0001 C CNN
+F 3 "~" H 5250 6550 50  0001 C CNN
+	1    5250 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 604139C4
+P 5250 6900
+F 0 "#FLG?" H 5250 6975 50  0001 C CNN
+F 1 "PWR_FLAG" H 5250 7073 50  0000 C CNN
+F 2 "" H 5250 6900 50  0001 C CNN
+F 3 "~" H 5250 6900 50  0001 C CNN
+	1    5250 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 6900 4800 6900
+Wire Wire Line
+	4800 6550 5250 6550
+$Comp
+L power:GND #PWR?
+U 1 1 60413D24
+P 1650 5150
+F 0 "#PWR?" H 1650 4900 50  0001 C CNN
+F 1 "GND" H 1655 4977 50  0000 C CNN
+F 2 "" H 1650 5150 50  0001 C CNN
+F 3 "" H 1650 5150 50  0001 C CNN
+	1    1650 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 5150 2300 5150
+Wire Wire Line
+	2300 5050 2300 5150
+Connection ~ 2300 5150
+$Comp
+L power:GND #PWR?
+U 1 1 604142D2
+P 4450 4950
+F 0 "#PWR?" H 4450 4700 50  0001 C CNN
+F 1 "GND" H 4455 4777 50  0000 C CNN
+F 2 "" H 4450 4950 50  0001 C CNN
+F 3 "" H 4450 4950 50  0001 C CNN
+	1    4450 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4950 3700 4950
+$Comp
+L Switch:SW_Push SW?
+U 1 1 60414731
+P 5400 5000
+F 0 "SW?" H 5400 5285 50  0000 C CNN
+F 1 "SW_Push" H 5400 5194 50  0000 C CNN
+F 2 "" H 5400 5200 50  0001 C CNN
+F 3 "~" H 5400 5200 50  0001 C CNN
+	1    5400 5000
+	1    0    0    -1  
+$EndComp
+Text GLabel 3700 5050 2    50   Input ~ 0
+RESET
+Text GLabel 5100 5000 0    50   Input ~ 0
+RESET
+Wire Wire Line
+	5100 5000 5200 5000
+$Comp
+L power:GND #PWR?
+U 1 1 60414DCC
+P 5700 5000
+F 0 "#PWR?" H 5700 4750 50  0001 C CNN
+F 1 "GND" H 5705 4827 50  0000 C CNN
+F 2 "" H 5700 5000 50  0001 C CNN
+F 3 "" H 5700 5000 50  0001 C CNN
+	1    5700 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 5000 5600 5000
+NoConn ~ 3700 5150
+$Comp
+L Device:LED D1
+U 1 1 604155F1
+P 5600 6200
+F 0 "D1" H 5593 5945 50  0000 C CNN
+F 1 "LED" H 5593 6036 50  0000 C CNN
+F 2 "" H 5600 6200 50  0001 C CNN
+F 3 "~" H 5600 6200 50  0001 C CNN
+	1    5600 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5450 6200 5250 6200
+Connection ~ 5250 6200
+$Comp
+L Device:R R1
+U 1 1 60416D61
+P 6200 6200
+F 0 "R1" V 5993 6200 50  0000 C CNN
+F 1 "470" V 6084 6200 50  0000 C CNN
+F 2 "" V 6130 6200 50  0001 C CNN
+F 3 "~" H 6200 6200 50  0001 C CNN
+	1    6200 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6041766E
+P 6650 6200
+F 0 "#PWR?" H 6650 5950 50  0001 C CNN
+F 1 "GND" H 6655 6027 50  0000 C CNN
+F 2 "" H 6650 6200 50  0001 C CNN
+F 3 "" H 6650 6200 50  0001 C CNN
+	1    6650 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 6200 6650 6200
+Text GLabel 5900 6200 1    50   Input ~ 0
+LED1R
+Wire Wire Line
+	5750 6200 6050 6200
+Text GLabel 5900 6550 1    50   Input ~ 0
+LED2R
+Text GLabel 5900 6900 1    50   Input ~ 0
+LED3R
+$Comp
+L Device:LED D2
+U 1 1 6041888B
+P 5600 6550
+F 0 "D2" H 5593 6295 50  0000 C CNN
+F 1 "LED" H 5593 6386 50  0000 C CNN
+F 2 "" H 5600 6550 50  0001 C CNN
+F 3 "~" H 5600 6550 50  0001 C CNN
+	1    5600 6550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 60418CA7
+P 5600 6900
+F 0 "D3" H 5593 6645 50  0000 C CNN
+F 1 "LED" H 5593 6736 50  0000 C CNN
+F 2 "" H 5600 6900 50  0001 C CNN
+F 3 "~" H 5600 6900 50  0001 C CNN
+	1    5600 6900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 6550 5450 6550
+Connection ~ 5250 6550
+Wire Wire Line
+	5250 6900 5450 6900
+Connection ~ 5250 6900
+$Comp
+L Device:R R2
+U 1 1 60419E53
+P 6200 6550
+F 0 "R2" V 5993 6550 50  0000 C CNN
+F 1 "470" V 6084 6550 50  0000 C CNN
+F 2 "" V 6130 6550 50  0001 C CNN
+F 3 "~" H 6200 6550 50  0001 C CNN
+	1    6200 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60419E59
+P 6650 6550
+F 0 "#PWR?" H 6650 6300 50  0001 C CNN
+F 1 "GND" H 6655 6377 50  0000 C CNN
+F 2 "" H 6650 6550 50  0001 C CNN
+F 3 "" H 6650 6550 50  0001 C CNN
+	1    6650 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 6550 6650 6550
+$Comp
+L Device:R R3
+U 1 1 6041A322
+P 6200 6900
+F 0 "R3" V 5993 6900 50  0000 C CNN
+F 1 "470" V 6084 6900 50  0000 C CNN
+F 2 "" V 6130 6900 50  0001 C CNN
+F 3 "~" H 6200 6900 50  0001 C CNN
+	1    6200 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6041A328
+P 6650 6900
+F 0 "#PWR?" H 6650 6650 50  0001 C CNN
+F 1 "GND" H 6655 6727 50  0000 C CNN
+F 2 "" H 6650 6900 50  0001 C CNN
+F 3 "" H 6650 6900 50  0001 C CNN
+	1    6650 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 6900 6650 6900
+Wire Wire Line
+	5750 6900 6050 6900
+Wire Wire Line
+	5750 6550 6050 6550
+Text GLabel 2000 800  1    50   Input ~ 0
+Col0
+Text GLabel 3000 800  1    50   Input ~ 0
+Col1
+Text GLabel 4000 800  1    50   Input ~ 0
+Col2
+Text GLabel 5000 800  1    50   Input ~ 0
+Col3
+Text GLabel 6000 800  1    50   Input ~ 0
+Col4
+Text GLabel 7000 800  1    50   Input ~ 0
+Col5
+Text GLabel 8000 800  1    50   Input ~ 0
+Col6
+Text GLabel 9000 800  1    50   Input ~ 0
+Col7
+Text GLabel 10000 800  1    50   Input ~ 0
+Col8
+Text GLabel 1500 1850 0    50   Input ~ 0
+Row0
+Text GLabel 1500 1950 0    50   Input ~ 0
+Row1
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX100
+U 1 1 6041D999
+P 1850 1350
+F 0 "MX100" H 1883 1573 60  0000 C CNN
+F 1 "MX-NoLED" H 1883 1499 20  0000 C CNN
+F 2 "" H 1225 1325 60  0001 C CNN
+F 3 "" H 1225 1325 60  0001 C CNN
+	1    1850 1350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
