@@ -545,9 +545,7 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 8600 1800
 	1    8600 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8300 1500 8300 1800
-NoConn ~ 8900 1800
+NoConn ~ 8300 1800
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX170
 U 1 1 6043B7F8
@@ -582,10 +580,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10100 180
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D181
+L Diode:BAV70 D171
 U 1 1 6043B80A
 P 10800 1900
-F 0 "D181" H 10800 2117 50  0000 C CNN
+F 0 "D171" H 10800 2117 50  0000 C CNN
 F 1 "BAV70" H 10800 2026 50  0000 C CNN
 F 2 "Keebio-Parts:SOT-23_Handsoldering" H 10800 1900 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10800 1900 50  0001 C CNN
@@ -1104,29 +1102,6 @@ Connection ~ 10000 1300
 Wire Wire Line
 	11150 1300 11150 2500
 Connection ~ 11150 1300
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX283.200
-U 1 1 6049446A
-P 11950 2850
-F 0 "MX283.200" H 11983 3073 60  0000 C CNN
-F 1 "MX-NoLED" H 11983 2999 20  0000 C CNN
-F 2 "MX_Only:MXOnly-2U-ReversedStabilizers-NoLED" H 11325 2825 60  0001 C CNN
-F 3 "" H 11325 2825 60  0001 C CNN
-	1    11950 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12100 2800 12300 2800
-Wire Wire Line
-	12300 2800 12300 2500
-Wire Wire Line
-	12300 2500 11600 2500
-Connection ~ 11600 2500
-Wire Wire Line
-	11900 3000 11900 3400
-Wire Wire Line
-	11900 3400 11400 3400
-Connection ~ 11400 3400
 Text GLabel 1750 3500 0    50   Input ~ 0
 Row2
 Text GLabel 1750 3600 0    50   Input ~ 0
@@ -2030,7 +2005,7 @@ U 1 1 607DF1A1
 P 12350 1550
 F 0 "RSW181" H 12350 1183 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 12350 1274 50  0000 C CNN
-F 2 "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 12200 1710 50  0001 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_EC11-no-legs" H 12200 1710 50  0001 C CNN
 F 3 "~" H 12350 1810 50  0001 C CNN
 	1    12350 1550
 	-1   0    0    1   
@@ -2072,9 +2047,9 @@ Text GLabel 1750 8700 0    50   Input ~ 0
 Rotary1A
 Text GLabel 1750 8800 0    50   Input ~ 0
 Rotary1B
-Text GLabel 1750 9100 0    50   Input ~ 0
-Rotary0A
 Text GLabel 1750 9200 0    50   Input ~ 0
+Rotary0A
+Text GLabel 1750 9100 0    50   Input ~ 0
 Rotary0B
 Text GLabel 12650 1650 2    50   Input ~ 0
 Rotary1A
@@ -2088,7 +2063,7 @@ U 1 1 6094656C
 P 1000 1500
 F 0 "RSW100" H 1000 1133 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 1000 1224 50  0000 C CNN
-F 2 "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 850 1660 50  0001 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_EC11-no-legs" H 850 1660 50  0001 C CNN
 F 3 "~" H 1000 1760 50  0001 C CNN
 	1    1000 1500
 	-1   0    0    1   
@@ -2226,4 +2201,8 @@ Wire Wire Line
 	5200 10400 5350 10400
 Wire Wire Line
 	5200 10750 5350 10750
+Wire Wire Line
+	8300 1500 8900 1500
+Wire Wire Line
+	8900 1500 8900 1800
 $EndSCHEMATC
