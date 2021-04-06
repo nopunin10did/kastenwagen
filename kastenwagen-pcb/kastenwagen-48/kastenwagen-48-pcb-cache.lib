@@ -83,11 +83,11 @@ X ROW 2 -50 -150 100 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# kastenwagen-pcb-rescue_Rotary_Encoder_Switch-Device
+# kastenwagen-48-pcb-rescue_Rotary_Encoder_Switch-Device-kastenwagen-pcb-rescue
 #
-DEF kastenwagen-pcb-rescue_Rotary_Encoder_Switch-Device SW 0 10 Y N 1 F N
+DEF kastenwagen-48-pcb-rescue_Rotary_Encoder_Switch-Device-kastenwagen-pcb-rescue SW 0 10 Y N 1 F N
 F0 "SW" 0 260 50 H V C CNN
-F1 "kastenwagen-pcb-rescue_Rotary_Encoder_Switch-Device" 0 -260 50 H V C CNN
+F1 "kastenwagen-48-pcb-rescue_Rotary_Encoder_Switch-Device-kastenwagen-pcb-rescue" 0 -260 50 H V C CNN
 F2 "" -150 160 50 H I C CNN
 F3 "" 0 260 50 H I C CNN
 $FPLIST

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name kastenwagen-48-pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/kastenwagen-48-pcb-rescue.lib)(options "")(descr ""))
+)

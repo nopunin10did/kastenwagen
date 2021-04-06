@@ -187,8 +187,6 @@ Text GLabel 8500 800  1    50   Input ~ 0
 Col6
 Text GLabel 10000 800  1    50   Input ~ 0
 Col7
-Text GLabel 11150 800  1    50   Input ~ 0
-Col8
 Text GLabel 1750 2000 0    50   Input ~ 0
 Row0
 Text GLabel 1750 2100 0    50   Input ~ 0
@@ -515,10 +513,9 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 8600 1800
 	1    8600 1800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8300 1800
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX170
-U 1 1 6043B7F8
+U 1 1 6043B820
 P 9850 1350
 F 0 "MX170" H 9850 1600 60  0000 C CNN
 F 1 "MX-NoLED" H 9883 1499 20  0000 C CNN
@@ -527,104 +524,13 @@ F 3 "" H 9225 1325 60  0001 C CNN
 	1    9850 1350
 	1    0    0    -1  
 $EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX171
-U 1 1 6043B7FE
-P 10550 1350
-F 0 "MX171" H 10550 1600 60  0000 C CNN
-F 1 "MX-NoLED" H 10583 1499 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 9925 1325 60  0001 C CNN
-F 3 "" H 9925 1325 60  0001 C CNN
-	1    10550 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D170
-U 1 1 6043B804
-P 10100 1800
-F 0 "D170" H 10100 2017 50  0000 C CNN
-F 1 "BAV70" H 10100 1926 50  0000 C CNN
-F 2 "Keebio-Parts:SOT-23_Handsoldering" H 10100 1800 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10100 1800 50  0001 C CNN
-	1    10100 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D171
-U 1 1 6043B80A
-P 10800 1900
-F 0 "D171" H 10800 2117 50  0000 C CNN
-F 1 "BAV70" H 10800 2026 50  0000 C CNN
-F 2 "Keebio-Parts:SOT-23_Handsoldering" H 10800 1900 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10800 1900 50  0001 C CNN
-	1    10800 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10700 1000 10700 1300
-Wire Wire Line
-	10500 1500 10500 1900
-Wire Wire Line
-	10000 800  10000 1000
-Wire Wire Line
-	10000 1000 10700 1000
-Connection ~ 10000 1000
-Wire Wire Line
-	10000 1000 10000 1300
-Wire Wire Line
-	9800 1500 9800 1800
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX180
-U 1 1 6043B817
-P 11000 1350
-F 0 "MX180" H 11000 1600 60  0000 C CNN
-F 1 "MX-NoLED" H 11033 1499 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 10375 1325 60  0001 C CNN
-F 3 "" H 10375 1325 60  0001 C CNN
-	1    11000 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11150 800  11150 1000
-Wire Wire Line
-	10950 1500 10950 1800
-Wire Wire Line
-	10950 1800 10400 1800
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX181
-U 1 1 6043B820
-P 11450 1350
-F 0 "MX181" H 11450 1600 60  0000 C CNN
-F 1 "MX-NoLED" H 11483 1499 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 10825 1325 60  0001 C CNN
-F 3 "" H 10825 1325 60  0001 C CNN
-	1    11450 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11150 1000 11600 1000
-Wire Wire Line
-	11600 1000 11600 1300
-Connection ~ 11150 1000
-Wire Wire Line
-	11150 1000 11150 1300
-Wire Wire Line
-	11400 1500 11400 1900
-Wire Wire Line
-	11400 1900 11100 1900
-Wire Wire Line
-	10800 2100 7100 2100
 Connection ~ 5050 2100
-Connection ~ 7100 2100
 Wire Wire Line
 	7100 2100 5050 2100
-Wire Wire Line
-	10100 2000 8600 2000
 Connection ~ 4350 2000
 Connection ~ 6400 2000
 Wire Wire Line
 	6400 2000 4350 2000
-Connection ~ 8600 2000
 Wire Wire Line
 	8600 2000 6400 2000
 $Comp
@@ -937,7 +843,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 8600 3300
 $EndComp
 Wire Wire Line
 	8300 3000 8300 3300
-NoConn ~ 8900 3300
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX272
 U 1 1 6044C9A4
@@ -949,100 +854,15 @@ F 3 "" H 9225 2825 60  0001 C CNN
 	1    9850 2850
 	1    0    0    -1  
 $EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX273
-U 1 1 6044C9AA
-P 10550 2850
-F 0 "MX273" H 10550 3100 60  0000 C CNN
-F 1 "MX-NoLED" H 10583 2999 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 9925 2825 60  0001 C CNN
-F 3 "" H 9925 2825 60  0001 C CNN
-	1    10550 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D272
-U 1 1 6044C9B0
-P 10100 3300
-F 0 "D272" H 10100 3517 50  0000 C CNN
-F 1 "BAV70" H 10100 3426 50  0000 C CNN
-F 2 "Keebio-Parts:SOT-23_Handsoldering" H 10100 3300 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10100 3300 50  0001 C CNN
-	1    10100 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D273
-U 1 1 6044C9B6
-P 10800 3400
-F 0 "D273" H 10800 3617 50  0000 C CNN
-F 1 "BAV70" H 10800 3526 50  0000 C CNN
-F 2 "Keebio-Parts:SOT-23_Handsoldering" H 10800 3400 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10800 3400 50  0001 C CNN
-	1    10800 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10700 2500 10700 2800
-Wire Wire Line
-	10500 3000 10500 3400
-Wire Wire Line
-	10000 2500 10700 2500
-Connection ~ 10000 2500
-Wire Wire Line
-	10000 2500 10000 2800
 Wire Wire Line
 	9800 3000 9800 3300
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX282
-U 1 1 6044C9C3
-P 11000 2850
-F 0 "MX282" H 11000 3100 60  0000 C CNN
-F 1 "MX-NoLED" H 11033 2999 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 10375 2825 60  0001 C CNN
-F 3 "" H 10375 2825 60  0001 C CNN
-	1    11000 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10950 3000 10950 3300
-Wire Wire Line
-	10950 3300 10400 3300
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX283
-U 1 1 6044C9CC
-P 11450 2850
-F 0 "MX283" H 11450 3100 60  0000 C CNN
-F 1 "MX-NoLED" H 11483 2999 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 10825 2825 60  0001 C CNN
-F 3 "" H 10825 2825 60  0001 C CNN
-	1    11450 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11150 2500 11600 2500
-Wire Wire Line
-	11600 2500 11600 2800
-Connection ~ 11150 2500
-Wire Wire Line
-	11150 2500 11150 2800
-Wire Wire Line
-	11400 3000 11400 3400
-Wire Wire Line
-	11400 3400 11100 3400
-Wire Wire Line
-	10800 3600 7100 3600
 Connection ~ 5050 3600
-Connection ~ 7100 3600
 Wire Wire Line
 	7100 3600 5050 3600
-Wire Wire Line
-	10100 3500 8600 3500
 Connection ~ 4350 3500
 Connection ~ 6400 3500
 Wire Wire Line
 	6400 3500 4350 3500
-Connection ~ 8600 3500
 Wire Wire Line
 	8600 3500 6400 3500
 Wire Wire Line
@@ -1066,12 +886,6 @@ Connection ~ 7450 1300
 Wire Wire Line
 	8500 1300 8500 2800
 Connection ~ 8500 1300
-Wire Wire Line
-	10000 1300 10000 2500
-Connection ~ 10000 1300
-Wire Wire Line
-	11150 1300 11150 2500
-Connection ~ 11150 1300
 Text GLabel 1750 3500 0    50   Input ~ 0
 Row2
 Text GLabel 1750 3600 0    50   Input ~ 0
@@ -1386,7 +1200,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 8600 4800
 $EndComp
 Wire Wire Line
 	8300 4500 8300 4800
-NoConn ~ 8900 4800
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX374
 U 1 1 604D5DD0
@@ -1398,100 +1211,15 @@ F 3 "" H 9225 4325 60  0001 C CNN
 	1    9850 4350
 	1    0    0    -1  
 $EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX375
-U 1 1 604D5DD6
-P 10550 4350
-F 0 "MX375" H 10550 4600 60  0000 C CNN
-F 1 "MX-NoLED" H 10583 4499 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 9925 4325 60  0001 C CNN
-F 3 "" H 9925 4325 60  0001 C CNN
-	1    10550 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D374
-U 1 1 604D5DDC
-P 10100 4800
-F 0 "D374" H 10100 5017 50  0000 C CNN
-F 1 "BAV70" H 10100 4926 50  0000 C CNN
-F 2 "Keebio-Parts:SOT-23_Handsoldering" H 10100 4800 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10100 4800 50  0001 C CNN
-	1    10100 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:BAV70 D375
-U 1 1 604D5DE2
-P 10800 4900
-F 0 "D375" H 10800 5117 50  0000 C CNN
-F 1 "BAV70" H 10800 5026 50  0000 C CNN
-F 2 "Keebio-Parts:SOT-23_Handsoldering" H 10800 4900 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10800 4900 50  0001 C CNN
-	1    10800 4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10700 4000 10700 4300
-Wire Wire Line
-	10500 4500 10500 4900
-Wire Wire Line
-	10000 4000 10700 4000
-Connection ~ 10000 4000
-Wire Wire Line
-	10000 4000 10000 4300
 Wire Wire Line
 	9800 4500 9800 4800
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX384
-U 1 1 604D5DEE
-P 11000 4350
-F 0 "MX384" H 11000 4600 60  0000 C CNN
-F 1 "MX-NoLED" H 11033 4499 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 10375 4325 60  0001 C CNN
-F 3 "" H 10375 4325 60  0001 C CNN
-	1    11000 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10950 4500 10950 4800
-Wire Wire Line
-	10950 4800 10400 4800
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX385
-U 1 1 604D5DF6
-P 11450 4350
-F 0 "MX385" H 11450 4600 60  0000 C CNN
-F 1 "MX-NoLED" H 11483 4499 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 10825 4325 60  0001 C CNN
-F 3 "" H 10825 4325 60  0001 C CNN
-	1    11450 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11150 4000 11600 4000
-Wire Wire Line
-	11600 4000 11600 4300
-Connection ~ 11150 4000
-Wire Wire Line
-	11150 4000 11150 4300
-Wire Wire Line
-	11400 4500 11400 4900
-Wire Wire Line
-	11400 4900 11100 4900
-Wire Wire Line
-	10800 5100 7100 5100
 Connection ~ 5050 5100
-Connection ~ 7100 5100
 Wire Wire Line
 	7100 5100 5050 5100
-Wire Wire Line
-	10100 5000 8600 5000
 Connection ~ 4350 5000
 Connection ~ 6400 5000
 Wire Wire Line
 	6400 5000 4350 5000
-Connection ~ 8600 5000
 Wire Wire Line
 	8600 5000 6400 5000
 Wire Wire Line
@@ -1508,10 +1236,6 @@ Wire Wire Line
 	7450 2800 7450 4000
 Wire Wire Line
 	8500 2800 8500 4300
-Wire Wire Line
-	10000 2800 10000 4000
-Wire Wire Line
-	11150 2800 11150 4000
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX406
 U 1 1 605034A2
@@ -1723,92 +1447,25 @@ $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX476
 U 1 1 6050354C
-P 9350 5850
-F 0 "MX476" H 9350 6100 60  0000 C CNN
-F 1 "MX-NoLED" H 9383 5999 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 8725 5825 60  0001 C CNN
-F 3 "" H 8725 5825 60  0001 C CNN
-	1    9350 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX477
-U 1 1 60503552
-P 10550 5850
-F 0 "MX477" H 10550 6100 60  0000 C CNN
-F 1 "MX-NoLED" H 10583 5999 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 9925 5825 60  0001 C CNN
-F 3 "" H 9925 5825 60  0001 C CNN
-	1    10550 5850
+P 9850 5850
+F 0 "MX476" H 9850 6100 60  0000 C CNN
+F 1 "MX-NoLED" H 9883 5999 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 9225 5825 60  0001 C CNN
+F 3 "" H 9225 5825 60  0001 C CNN
+	1    9850 5850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Diode:BAV70 D476
 U 1 1 60503558
-P 9600 6300
-F 0 "D476" H 9600 6517 50  0000 C CNN
-F 1 "BAV70" H 9600 6426 50  0000 C CNN
-F 2 "Keebio-Parts:SOT-23_Handsoldering" H 9600 6300 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 9600 6300 50  0001 C CNN
-	1    9600 6300
+P 10100 6300
+F 0 "D476" H 10100 6517 50  0000 C CNN
+F 1 "BAV70" H 10100 6426 50  0000 C CNN
+F 2 "Keebio-Parts:SOT-23_Handsoldering" H 10100 6300 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10100 6300 50  0001 C CNN
+	1    10100 6300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Diode:BAV70 D477
-U 1 1 6050355E
-P 10800 6400
-F 0 "D477" H 10800 6617 50  0000 C CNN
-F 1 "BAV70" H 10800 6526 50  0000 C CNN
-F 2 "Keebio-Parts:SOT-23_Handsoldering" H 10800 6400 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 10800 6400 50  0001 C CNN
-	1    10800 6400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10700 5500 10700 5800
-Wire Wire Line
-	10500 6000 10500 6150
-Wire Wire Line
-	10000 5500 10150 5500
-Wire Wire Line
-	9500 5500 9500 5800
-Wire Wire Line
-	9300 6000 9300 6300
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX486
-U 1 1 6050356A
-P 11000 5850
-F 0 "MX486" H 11000 6100 60  0000 C CNN
-F 1 "MX-NoLED" H 11033 5999 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 10375 5825 60  0001 C CNN
-F 3 "" H 10375 5825 60  0001 C CNN
-	1    11000 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10950 6000 10950 6300
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX487
-U 1 1 60503572
-P 11450 5850
-F 0 "MX487" H 11450 6100 60  0000 C CNN
-F 1 "MX-NoLED" H 11483 5999 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 10825 5825 60  0001 C CNN
-F 3 "" H 10825 5825 60  0001 C CNN
-	1    11450 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11150 5500 11600 5500
-Wire Wire Line
-	11600 5500 11600 5800
-Connection ~ 11150 5500
-Wire Wire Line
-	11150 5500 11150 5800
-Wire Wire Line
-	11400 6000 11400 6400
-Wire Wire Line
-	11400 6400 11100 6400
 Connection ~ 6400 6500
 Wire Wire Line
 	2200 4300 2200 5500
@@ -1820,35 +1477,6 @@ Wire Wire Line
 	7450 4300 7450 5500
 Wire Wire Line
 	8500 4300 8500 5800
-Wire Wire Line
-	10000 4300 10000 5500
-Wire Wire Line
-	11150 4300 11150 5500
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX487.200
-U 1 1 60503591
-P 11950 5850
-F 0 "MX487.200" H 11983 6073 60  0000 C CNN
-F 1 "MX-NoLED" H 11983 5999 20  0000 C CNN
-F 2 "MX_Only:MXOnly-2U-NoLED" H 11325 5825 60  0001 C CNN
-F 3 "" H 11325 5825 60  0001 C CNN
-	1    11950 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12100 5800 12300 5800
-Wire Wire Line
-	12300 5800 12300 5500
-Wire Wire Line
-	12300 5500 11600 5500
-Connection ~ 11600 5500
-Wire Wire Line
-	11900 6000 11900 6400
-Wire Wire Line
-	11900 6400 11400 6400
-Connection ~ 11400 6400
-Wire Wire Line
-	6400 6500 9600 6500
 Wire Wire Line
 	8300 6000 8300 6400
 Text GLabel 1750 5000 0    50   Input ~ 0
@@ -1910,37 +1538,6 @@ Wire Wire Line
 	6800 6000 6800 6400
 Wire Wire Line
 	6800 6400 5800 6400
-Connection ~ 8000 6600
-Wire Wire Line
-	8000 6600 10800 6600
-Wire Wire Line
-	9900 6300 10950 6300
-Wire Wire Line
-	10000 5500 9500 5500
-Connection ~ 10000 5500
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX477.200
-U 1 1 6068646A
-P 10000 5850
-F 0 "MX477.200" H 10000 6100 60  0000 C CNN
-F 1 "MX-NoLED" H 10033 5999 20  0000 C CNN
-F 2 "MX_Only:MXOnly-2U-ReversedStabilizers-NoLED" H 9375 5825 60  0001 C CNN
-F 3 "" H 9375 5825 60  0001 C CNN
-	1    10000 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10150 5500 10150 5800
-Connection ~ 10150 5500
-Wire Wire Line
-	10150 5500 10700 5500
-Wire Wire Line
-	9950 6000 9950 6150
-Wire Wire Line
-	9950 6150 10500 6150
-Connection ~ 10500 6150
-Wire Wire Line
-	10500 6150 10500 6400
 Text GLabel 3150 9100 2    50   Input ~ 0
 Col0
 Text GLabel 3150 9200 2    50   Input ~ 0
@@ -1970,35 +1567,14 @@ LED2
 Text GLabel 1750 9400 0    50   Input ~ 0
 LED3
 $Comp
-L kastenwagen-pcb-rescue:Rotary_Encoder_Switch-Device RSW181
-U 1 1 607DF1A1
-P 12350 1550
-F 0 "RSW181" H 12350 1183 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 12350 1274 50  0000 C CNN
-F 2 "Keebio-Parts:RotaryEncoder_EC11-no-legs" H 12200 1710 50  0001 C CNN
-F 3 "~" H 12350 1810 50  0001 C CNN
-	1    12350 1550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	11600 1000 12050 1000
-Wire Wire Line
-	12050 1000 12050 1450
-Connection ~ 11600 1000
-Wire Wire Line
-	12050 1650 12050 1900
-Wire Wire Line
-	12050 1900 11400 1900
-Connection ~ 11400 1900
-$Comp
 L power:GND #PWR0108
 U 1 1 60898AEF
-P 13200 1550
-F 0 "#PWR0108" H 13200 1300 50  0001 C CNN
-F 1 "GND" H 13205 1377 50  0000 C CNN
-F 2 "" H 13200 1550 50  0001 C CNN
-F 3 "" H 13200 1550 50  0001 C CNN
-	1    13200 1550
+P 11500 1550
+F 0 "#PWR0108" H 11500 1300 50  0001 C CNN
+F 1 "GND" H 11505 1377 50  0000 C CNN
+F 2 "" H 11500 1550 50  0001 C CNN
+F 3 "" H 11500 1550 50  0001 C CNN
+	1    11500 1550
 	1    0    0    -1  
 $EndComp
 Text GLabel 2350 10200 3    50   Input ~ 0
@@ -2009,8 +1585,6 @@ Text GLabel 1750 9800 0    50   Input ~ 0
 Row1
 Text GLabel 1750 9700 0    50   Input ~ 0
 Row0
-Text GLabel 1750 9500 0    50   Input ~ 0
-Col8
 Text GLabel 1750 9600 0    50   Input ~ 0
 Col7
 Text GLabel 1750 8700 0    50   Input ~ 0
@@ -2021,14 +1595,14 @@ Text GLabel 1750 9200 0    50   Input ~ 0
 Rotary0A
 Text GLabel 1750 9100 0    50   Input ~ 0
 Rotary0B
-Text GLabel 12650 1650 2    50   Input ~ 0
+Text GLabel 10950 1650 2    50   Input ~ 0
 Rotary1A
-Text GLabel 12650 1450 2    50   Input ~ 0
+Text GLabel 10950 1450 2    50   Input ~ 0
 Rotary1B
 Wire Wire Line
-	12650 1550 13200 1550
+	10950 1550 11500 1550
 $Comp
-L kastenwagen-pcb-rescue:Rotary_Encoder_Switch-Device RSW100
+L kastenwagen-48-pcb-rescue:Rotary_Encoder_Switch-Device-kastenwagen-pcb-rescue RSW100
 U 1 1 6094656C
 P 1000 1500
 F 0 "RSW100" H 1000 1133 50  0000 C CNN
@@ -2070,8 +1644,6 @@ Connection ~ 8500 2800
 Connection ~ 8500 4300
 Connection ~ 10000 2800
 Connection ~ 10000 4300
-Connection ~ 11150 2800
-Connection ~ 11150 4300
 Wire Wire Line
 	700  1400 700  1000
 Wire Wire Line
@@ -2171,9 +1743,66 @@ Wire Wire Line
 	5200 10400 5350 10400
 Wire Wire Line
 	5200 10750 5350 10750
-Wire Wire Line
-	8300 1500 8900 1500
-Wire Wire Line
-	8900 1500 8900 1800
 NoConn ~ 3150 8900
+Wire Wire Line
+	8300 1500 8300 1800
+Connection ~ 10000 1300
+Wire Wire Line
+	8900 3300 9800 3300
+Wire Wire Line
+	10000 2800 10000 4300
+Wire Wire Line
+	9800 4800 8900 4800
+Wire Wire Line
+	10000 4300 10000 5800
+Wire Wire Line
+	6400 6500 10100 6500
+Wire Wire Line
+	9800 6000 9800 6300
+NoConn ~ 10400 6300
+NoConn ~ 1750 9500
+Wire Wire Line
+	10000 800  10000 1300
+Wire Wire Line
+	10000 1300 10000 2800
+Wire Wire Line
+	10000 1300 10350 1300
+Wire Wire Line
+	10350 1300 10350 1450
+$Comp
+L Diode:BAV70 D170
+U 1 1 60DBC3A5
+P 9500 1800
+F 0 "D170" H 9500 2017 50  0000 C CNN
+F 1 "BAV70" H 9500 1926 50  0000 C CNN
+F 2 "Keebio-Parts:SOT-23_Handsoldering" H 9500 1800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 9500 1800 50  0001 C CNN
+	1    9500 1800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8900 1800
+Wire Wire Line
+	9500 2000 8600 2000
+Connection ~ 8600 2000
+Wire Wire Line
+	9800 1500 9200 1500
+$Comp
+L kastenwagen-48-pcb-rescue:Rotary_Encoder_Switch-Device-kastenwagen-pcb-rescue RSW170
+U 1 1 607DF1A1
+P 10650 1550
+F 0 "RSW170" H 10650 1183 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 10650 1274 50  0000 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_EC11-no-legs" H 10500 1710 50  0001 C CNN
+F 3 "~" H 10650 1810 50  0001 C CNN
+	1    10650 1550
+	-1   0    0    1   
+$EndComp
+NoConn ~ 9800 1800
+Wire Wire Line
+	9200 1500 9200 1800
+Wire Wire Line
+	9800 1500 9800 1650
+Wire Wire Line
+	9800 1650 10350 1650
+Connection ~ 9800 1500
 $EndSCHEMATC
