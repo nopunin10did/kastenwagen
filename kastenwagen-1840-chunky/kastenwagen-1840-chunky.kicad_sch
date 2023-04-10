@@ -3960,7 +3960,7 @@
     (property "Value" "MX-NoLED" (at 212.9282 68.6054 0)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "mx-custom:MXOnly-ISO-ROTATED-NoLED" (at 196.215 73.025 0)
+    (property "Footprint" "mx-custom:MXOnly-ISO-ROTATED-NoLED-NoStabs" (at 196.215 73.025 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (at 196.215 73.025 0)
